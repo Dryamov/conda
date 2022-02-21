@@ -1,19 +1,19 @@
 channels:
-- conda-forge
+  - conda-forge
 dependencies:
-- python=3.9.*
-- nodejs=14
-- pip
-- jupyterlab
-- jupyterlab-git
-- jupyterlab-lsp
-- jupyter-lsp-r
-- python-lsp-server
-- json-lsp
-- yaml-lsp
-- r
-- r-irkernel
-- rpy2
-- flake8 >=3.5
-- pylint
-- texlab
+  - python=3.9.*
+  - nodejs=14
+  - pip
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-lsp
+  - jupyter-lsp-r
+  - python-lsp-server
+  - json-lsp
+  - yaml-lsp
+  - r
+  - r-irkernel
+  - rpy2
+  - flake8 >=3.5
+  - pylint
+  - texlab
