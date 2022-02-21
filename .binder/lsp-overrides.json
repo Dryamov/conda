@@ -1,0 +1,16 @@
+{
+    "@krassowski/jupyterlab-lsp:plugin": {
+      "language_servers": {
+        "texlab": {
+          "serverSettings": {
+            "latex.lint.onChange": true
+          }
+        },
+        "pyright": {
+          "serverSettings": {
+            "python.analysis.useLibraryCodeForTypes": true
+          }
+        }
+      }
+    }
+  }

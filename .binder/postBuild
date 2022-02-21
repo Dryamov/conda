@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -eux
+
+if [ "$NB_USER" = "dryam" ]; then
+    mkdir -p $NB_PYTHON_PREFIX/share/jupyter/lab/settings/
+    cp .binder/lsp-overrides.json $NB_PYTHON_PREFIX/share/jupyter/lab/settings/
+fi
