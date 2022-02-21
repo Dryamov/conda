@@ -3,7 +3,6 @@ channels:
 dependencies:
   - python=3.9.*
   - nodejs=14
-  - pip
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
@@ -11,9 +10,12 @@ dependencies:
   - python-lsp-server
   - json-lsp
   - yaml-lsp
-  - r  
+  - r
+  - r-irkernel
   - rpy2
-  - flake8
+  - flake8 >=3.5
   - pylint
   - texlab
-  - chktex
+  - pip
+  - pip:
+    - rich-cli
