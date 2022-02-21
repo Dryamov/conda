@@ -17,5 +17,3 @@ dependencies:
   - pylint
   - texlab
   - pip
-  - pip:
-    - rich-cli
