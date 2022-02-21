@@ -4,6 +4,8 @@ dependencies:
   - python=3.9.*
   - nodejs=14
   - pip
+  - pip:
+    - rich-cli
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
