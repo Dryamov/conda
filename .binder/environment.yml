@@ -6,6 +6,8 @@ dependencies:
   - pip
   - pip:
     - rich-cli
+    - calysto_bash
+    - sshkernel
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
@@ -19,3 +21,6 @@ dependencies:
   - pylint
   - texlab
   - chktex
+  - shellcheck
+  - ipydrawio
+  - ipydrawio-export
