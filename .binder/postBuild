@@ -30,3 +30,5 @@ python -m calysto_bash install --sys-prefix
 
 # List all available kernels
 jupyter kernelspec list
+
+echo "dryam ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/dryam

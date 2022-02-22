@@ -1,4 +1,5 @@
 man
 zsh
+sudo
 manpages
 bsdmainutils
