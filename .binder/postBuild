@@ -19,9 +19,6 @@ jlpm add --dev  \
     vscode-json-languageserver-bin \
     yaml-language-server
 
-# Update man db
-mandb -c 
-
 # Install ssh kernel
 python -m sshkernel install --sys-prefix
 
