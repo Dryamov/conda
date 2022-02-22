@@ -26,7 +26,7 @@ mandb -c
 python -m sshkernel install --sys-prefix
 
 # Install zsh kernel
-python -m zsh_jupyter_kernel.install --sys-prefix
+python -m zsh_jupyter_kernel install --sys-prefix
 
 # Install bash kernel
 python -m calysto_bash install --sys-prefix
