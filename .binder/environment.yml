@@ -8,7 +8,6 @@ dependencies:
     - rich-cli
     - calysto_bash
     - sshkernel
-    - zsh_jupyter_kernel
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
@@ -25,3 +24,4 @@ dependencies:
   - shellcheck
   - ipydrawio
   - ipydrawio-export
+  - theme-darcula
